@@ -1,0 +1,331 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Cambria, Georgia, serif;
+	background: #f9f9f9 url(../images/bg.jpg);
+	font-weight: 300;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container > header {
+	margin: 10px;
+	padding: 40px 10px 10px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.container > header h1 {
+	font-size: 32px;
+	line-height: 32px;
+	margin: 0;
+	position: relative;
+	font-weight: 300;
+	color: #777;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+  margin-bottom: 20px;
+}
+.container > header p {
+	font-size: 21px;
+	font-weight: 300;
+	font-style: italic;
+	margin: 0;
+	padding: 15px 0 5px 0;
+	color: #888;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
+}
+
+/* Grid */
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin: 20px;
+}
+
+/* Circles */
+
+.ch-item {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+	cursor: default;
+	box-shadow:
+		inset 0 0 0 16px rgba(255,255,255,0.6),
+		0 1px 2px rgba(0,0,0,0.1);
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+/* Images */
+
+.ch-img-1 {
+	background-image: url(images/lemonade.jpg);
+}
+
+.ch-img-2 {
+	background-image: url(images/waterballoons.jpg);
+}
+
+.ch-img-3 {
+	background-image: url(images/flykite.jpg);
+}
+.ch-img-4 {
+	background-image: url(images/fair.jpg);
+}
+.ch-img-5 {
+	background-image: url(images/berrypicking.jpg);
+}
+.ch-img-6 {
+	background-image: url(images/bakeberrypie.jpg);
+}
+.ch-img-7 {
+	background-image: url(images/bbq.jpg);
+}
+.ch-img-8 {
+	background-image: url(images/bike.jpg);
+}
+.ch-img-9 {
+	background-image: url(images/hammock.jpg);
+}
+.ch-img-10 {
+	background-image: url(images/sparklers.jpg);
+}
+.ch-img-11 {
+	background-image: url(images/readingsummer.jpg);
+}
+.ch-img-12 {
+	background-image: url(images/sandcastle.jpg);
+}
+.ch-img-13 {
+	background-image: url(images/garden.jpg);
+}
+.ch-img-14 {
+	background-image: url(images/canoe.jpg);
+}
+.ch-img-15 {
+	background-image: url(images/bonfire.jpg);
+}
+.ch-img-16 {
+	background-image: url(images/popsicle.jpg);
+}
+.ch-img-17 {
+	background-image: url(images/fishing.jpg);
+}
+.ch-img-18 {
+	background-image: url(images/beach.jpg);
+}
+.ch-img-19 {
+	background-image: url(images/baseball.jpg);
+}
+.ch-img-20 {
+	background-image: url(images/waterpark.jpg);
+}
+.ch-img-21 {
+	background-image: url(images/watermelon.jpg);
+}
+.ch-img-22 {
+	background-image: url(images/cornoncob.jpg);
+}
+.ch-img-23 {
+	background-image: url(images/boardgamenight.jpg);
+}
+.ch-img-24 {
+	background-image: url(images/hike.jpg);
+}
+.ch-img-25 {
+	background-image: url(images/sprinklers.jpg);
+}
+.ch-img-26 {
+	background-image: url(images/rootbeer.jpg);
+}
+.ch-img-27 {
+	background-image: url(images/picnic.jpg);
+}
+.ch-img-28 {
+	background-image: url(images/firefly.jpg);
+}
+.ch-img-29 {
+	background-image: url(images/minigolf.jpg);
+}
+.ch-img-30 {
+	background-image: url(images/zoo.jpg);
+}
+.ch-img-31 {
+	background-image: url(images/lake.jpg);
+}
+.ch-img-32 {
+	background-image: url(images/smores.jpg);
+}
+.ch-img-33 {
+	background-image: url(images/stargazing.jpg);
+}
+.ch-img-34 {
+	background-image: url(images/camping.jpg);
+}
+.ch-img-35 {
+	background-image: url(images/summercamp.jpg);
+}
+.ch-img-36 {
+	background-image: url(images/swimming.jpg);
+}
+.ch-img-37 {
+	background-image: url(images/battingcages.jpg);
+}
+.ch-img-38 {
+	background-image: url(images/sunset.jpg);
+}
+.ch-img-39 {
+	background-image: url(images/drinks.jpg);
+}
+.ch-img-40 {
+	background-image: url(images/roadtrip.jpg);
+}
+.ch-img-41 {
+	background-image: url(images/coaster.jpg);
+}
+.ch-img-42 {
+	background-image: url(images/icecream.jpg);
+}
+.ch-img-43 {
+	background-image: url(images/volleyball.jpg);
+}
+.ch-img-44 {
+	background-image: url(images/themepark.jpg);
+}
+.ch-img-45 {
+	background-image: url(images/concert.jpg);
+}
+.ch-img-46 {
+	background-image: url(images/nationalpark.jpg);
+}
+.ch-img-47 {
+	background-image: url(images/craft.jpg);
+}
+
+/* Info */
+
+.ch-info {
+	position: absolute;
+	background: rgba(63,147,147, 0.8);
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	opacity: 0;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+
+	-webkit-backface-visibility: hidden;
+}
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin: 0 30px;
+	padding: 45px 0 0 0;
+	height: 140px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow:
+		0 0 1px #fff,
+		0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out 0.4s;
+	-moz-transition: all 1s ease-in-out 0.4s;
+	-o-transition: all 1s ease-in-out 0.4s;
+	-ms-transition: all 1s ease-in-out 0.4s;
+	transition: all 1s ease-in-out 0.4s;
+}
+
+.ch-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover {
+	box-shadow:
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.ch-item:hover .ch-info {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.ch-item:hover .ch-info p {
+	opacity: 1;
+}
