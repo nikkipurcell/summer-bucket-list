@@ -270,6 +270,7 @@ body {
 	transform: scale(0);
 
 	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 .ch-info.web-link {
